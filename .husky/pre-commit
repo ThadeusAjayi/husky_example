@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-mkdir folder
-touch ./folder/_package.json
-git add ./folder/_package.json
+DIR="/folder/"
+[! -d "$DIR" ] && mkdir folder
+
+cp package.json ./folder/_package.json
