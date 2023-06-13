@@ -5,3 +5,5 @@ DIR="/folder/"
 [! -d "$DIR" ] && mkdir folder
 
 cp package.json ./folder/_package.json
+
+git add ./folder/_package.json
