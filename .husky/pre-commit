@@ -3,3 +3,4 @@
 
 mkdir folder
 touch ./folder/_package.json
+git add ./folder/_package.json
